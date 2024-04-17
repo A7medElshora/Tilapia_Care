@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-
 class SelectPhotoOptionsScreen extends StatelessWidget {
   const SelectPhotoOptionsScreen({
-    Key? key, required onTab,
+    Key? key,
+    required onTab,
   }) : super(key: key);
 
   @override
@@ -60,5 +60,7 @@ class SelectPhotoOptionsScreen extends StatelessWidget {
   }
 }
 
-SelectPhoto({required Null Function() onTap, required IconData icon, required String textLabel}) {
-}
+SelectPhoto(
+    {required Null Function() onTap,
+    required IconData icon,
+    required String textLabel}) {}
